@@ -39,4 +39,12 @@ https://github.com/angelawong3/project-moneymail
 ![home-page](./assets/images/app/home-page.jpg)
 ![team-page](./assets/images/app/team-page.png)
 
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+####
+
+Contact me at angelawong3@yahoo.com
+
 © MoneyMail All Rights Reserved.
