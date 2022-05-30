@@ -28,11 +28,11 @@ before I commit to converting.
 
 ### Deployed Link
 
-Click [https://ss12932.github.io/currency-news-project/](https://ss12932.github.io/currency-news-project/) to go to the page.
+Click [https://angelawong3.github.io/project-moneymail/](https://angelawong3.github.io/project-moneymail/) to go to the page.
 
 ### Github Repository Link
 
-https://github.com/ss12932/currency-news-project
+https://github.com/angelawong3/project-moneymail
 
 ### Screenshot of Deployed Application
 
