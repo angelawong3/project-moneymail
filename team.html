@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Our Team</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "480px",
+            md: "768px",
+            lg: "976px",
+            xl: "1280px",
+            "2xl": "1440px",
+          },
+          extend: {
+            fontFamily: {
+              cormorant: ['"Cormorant"', "serif"],
+            },
+            colors: {
+              "sea-blue": "#73b9d7",
+              "sky-blue": "#9de6e8",
+              "peach-puff": "#f9dbbdff",
+              "light-pink": "#ffa5abff",
+              blush: "#da627dff",
+              "maroon-x-11": "#a53860ff",
+              "dark-sienna": "#450920ff",
+              "russian-violet": "#231942ff",
+              "purple-navy": "#5e548eff",
+              "purple-mountain-majesty": "#9f86c0ff",
+              lilac: "#be95c4ff",
+              "pink-lavender": "#e0b1cbff",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="flex flex-col min-h-screen font-cormorant">
+    <header
+      class="header flex justify-center flex-col items-center md:items-start md:justify-between py-6 px-4 bg-white shadow-lg bg-russian-violet text-white md:flex-row"
+    >
+      <div class="flex w-1/2 justify-center md:justify-between">
+        <!-- Logo -->
+        <div class="flex justify-center flex-col lg:flex-row lg:items-center">
+          <div class="place-self-center hover:scale-125 transition">
+            <img src="./assets/images/logo/logodraft1.png" class="h-12 pr-2" />
+          </div>
+          <div class="flex justify-center items-center mx-2 pr-2 text-5xl font-semibold mb-4 lg:mb-0 "><p>MoneyMail</p></div>
+          <!-- Moment.js date and time -->
+          <div class="flex date-timer place-self-center text-1xl font-bold"></div>
+        </div>
+      </div>
+
+      <!-- Right Hand Side Nav Bar -->
+
+      <nav class="flex items-center">
+        <a
+          class="font-semibold hover:bg-white py-3 px-2 no-underline rounded uppercase hover:text-russian-violet"
+          href="./index.html"
+          >Home</a
+        >
+        <a
+          class="font-semibold hover:bg-white py-3 px-2 no-underline rounded uppercase hover:text-russian-violet"
+          href="./team.html"
+          >About Us</a
+        >
+      </nav>
+    </header>
+    <!-- main section for meet our team -->
+    <main class="flex-1" id="main">
+      <div>
+        <h1 class="text-4xl flex justify-center py-5 text-russian-violet">Our Development Team</h1>
+      </div>
+      <div
+        class=" mt-2 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 justify-items-center"
+      >
+        <div class="teammate border shadow-lg rounded h-[20rem] w-[13rem] mt-6 hover:scale-110 transition">
+          <img
+            src="https://ca.slack-edge.com/T037H18DGUU-U0393BPL8SW-b72d3d74646b-512"
+            alt="Amina's photo"
+          />
+          <p class="pt-3 text-center font-bold">Amina</p>
+          <ul>
+            <li class="text-center">
+              💻 Github page: <a href="https://github.com/aminahayat" target="_blank">aminahayat</a>
+            </li>
+          </ul>
+        </div>
+        <div class="teammate border shadow-lg rounded h-[20rem] w-[13rem] mt-6 hover:scale-110 transition">
+          <img
+            src="https://ca.slack-edge.com/T037H18DGUU-U037QLRJX39-a23dded16469-512"
+            alt="Angela's photo"
+          />
+          <p class="pt-3 text-center font-bold">Angela</p>
+          <ul>
+            <li class="text-center">
+              💻 Github page: <a href="https://github.com/angelawong3" target="_blank">angelawong3</a>
+            </li>
+          </ul>
+        </div>
+        <div class="teammate border shadow-lg rounded h-[20rem] w-[13rem] mt-6 hover:scale-110 transition">
+          <img src="https://styles.redditmedia.com/t5_2r5i1/styles/communityIcon_x4lqmqzu1hi81.jpg" 
+          alt="Keyur's photo" />
+          <p class="pt-3 text-center font-bold">Keyur</p>
+          <ul>
+            <li class="text-center">
+              💻 Github page: <a href="https://github.com/keyurmist" target="_blank">keyurmist</a>
+            </li>
+          </ul>
+        </div>
+      <div class="teammate border shadow-lg rounded h-[20rem] w-[13rem] mt-6 hover:scale-110 transition">
+        <img
+          src="https://ca.slack-edge.com/T037H18DGUU-U03858Q0J9Y-9e42de6f5ff1-512"
+          alt="Natasha's photo"
+        />
+        <p class="pt-3 text-center font-bold">Natasha</p>
+        <ul>
+          <li class="text-center">
+            💻 Github page: <a href="https://github.com/LonelyOrphan" target="_blank">LonelyOrphan</a>
+          </li>
+        </ul>
+      </div>
+      <div class="teammate border shadow-lg rounded h-[20rem] w-[13rem] mt-6 hover:scale-110 transition">
+        <img
+          src="https://ca.slack-edge.com/T037H18DGUU-U037QLHSZ1D-3b955162f143-512"
+          alt="Sinh's photo"
+        />
+        <p class="pt-3 text-center font-bold">Sinh</p>
+        <ul>
+          <li class="text-center">
+            💻 Github page: <a href="https://github.com/ss12932" target="_blank">ss12932</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <br>
+    <footer class="py-6 border bg-russian-violet text-white text-center">
+      &copy; MoneyMail All Rights Reserved.
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+      integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <script src="./assets/js/utility.js"></script>
+  </body>
+</html>
