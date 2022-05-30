@@ -47,4 +47,6 @@ https://github.com/angelawong3/project-moneymail
 
 Contact me at angelawong3@yahoo.com
 
+---
+
 © MoneyMail All Rights Reserved.
